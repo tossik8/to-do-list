@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    #button{
+        display: block;
+        margin-top: 15px;
+        width: 100%;
+        padding: 5px;
+        background: linear-gradient(rgb(40, 80, 200), rgb(200,80,40));
+        color: rgb(255,255,255);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 19px;
+    }
+    #task{
+        width: 120%;
+        padding: 5px 0;
+        font-size: 19px;
+        letter-spacing: 1.5px;
+    }
+    h4{
+        font-size: 22px;
+        margin-left: 40%;
+    }
+    ul{
+        list-style: none;
+    }
+
+    svg{
+        width: 100px;
+        height: 70px;
+        margin-bottom: 15px;
+    }
+    li{
+        font-size: 19px;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-bottom: 10px;
+    }
+    .delete{
+        background-color: rgba(171, 17, 86, 0.8);
+        border: none;
+        height: 45px;
+        width: 45px;
+        color: white;
+        margin-left: 20%;
+    }
+
+    #delete-all{
+        position: fixed;
+        top: 300px;
+        right: 500px;
+        font-size: 19px;
+        background-color:crimson;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+
+    }
+}
